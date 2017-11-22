@@ -259,7 +259,7 @@ class Random:
                     return Weapon(curr, damage)
 
                 if xp == 4:
-                    adjectives = ["Robust", "Mighty", "Strapping", "Fibrous", "Sturdy"]
+                        adjectives = ["Robust", "Mighty", "Strapping", "Fibrous", "Sturdy"]
 
                     damage = self.random(6,7) * 10
                     curr = random.choice(adjectives) + " " + random.choice(weapons)
